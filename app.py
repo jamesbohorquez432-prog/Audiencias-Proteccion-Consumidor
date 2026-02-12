@@ -44,13 +44,7 @@ with c1:
 with c2:
     st.markdown("## Publicación informativa de audiencias - Protección al Consumidor")
     st.caption("Consulta interna informativa. No reemplaza la notificación procesal.")
-
-with c3:
-    if LOGO_SIC.exists():
-        st.image(str(LOGO_SIC), use_container_width=True)
-
-st.divider()
-
+#####ojo james en esta linea va lo de la imagen 
 # ---------------------------
 # Función: texto español → datetime
 # ---------------------------
