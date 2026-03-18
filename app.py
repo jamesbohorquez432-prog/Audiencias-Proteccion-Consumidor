@@ -43,7 +43,15 @@ with c1:
 
 with c2:
     st.markdown("## Publicación informativa de audiencias - Protección al Consumidor")
-    st.caption("La información publicada en esta aplicación es solo informativa. No reemplaza ni suple la notificación de la audiencia. La notificación a las partes se realiza por los medios previstos en el Código General del Proceso. Recuerde que, en su calidad de parte dentro del proceso, es su responsabilidad hacer seguimiento permanente a su trámite.")
+    st.markdown(
+   "<p style='color:#FF00FF; font-size:14px;'>"
+   "La información publicada en esta aplicación es solo informativa. "
+   "No reemplaza ni suple la notificación de la audiencia. "
+   "La notificación a las partes se realiza por los medios previstos en el Código General del Proceso. "
+   "Recuerde que, en su calidad de parte dentro del proceso, es su responsabilidad hacer seguimiento permanente a su trámite."
+   "</p>",
+   unsafe_allow_html=True
+)
 #####ojo james en esta linea va lo de la imagen 
 # ---------------------------
 # Función: texto español → datetime
