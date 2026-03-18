@@ -44,12 +44,20 @@ with c1:
 with c2:
     st.markdown("## Publicación informativa de audiencias - Protección al Consumidor")
     st.markdown(
-   "<p style='color:#FF00FF; font-size:14px;'>"
-   "La información publicada en esta aplicación es solo informativa. "
-   "No reemplaza ni suple la notificación de la audiencia. "
-   "La notificación a las partes se realiza por los medios previstos en el Código General del Proceso. "
-   "Recuerde que, en su calidad de parte dentro del proceso, es su responsabilidad hacer seguimiento permanente a su trámite."
-   "</p>",
+ """
+<style>
+   .texto-fucsia {
+       color: #C2185B !important;
+       font-size: 14px;
+   }
+</style>
+<p class="texto-fucsia">
+   La información publicada en esta aplicación es solo informativa.
+   No reemplaza ni suple la notificación de la audiencia.
+   La notificación a las partes se realiza por los medios previstos en el Código General del Proceso.
+   Recuerde que, en su calidad de parte dentro del proceso, es su responsabilidad hacer seguimiento permanente a su trámite.
+</p>
+   """,
    unsafe_allow_html=True
 )
 #####ojo james en esta linea va lo de la imagen 
