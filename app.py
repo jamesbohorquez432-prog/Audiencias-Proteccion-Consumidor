@@ -52,10 +52,11 @@ with c2:
    }
 </style>
 <p class="texto-fucsia">
-   La información publicada en esta aplicación es solo informativa.
-   No reemplaza ni suple la notificación de la audiencia.
-   La notificación a las partes se realiza por los medios previstos en el Código General del Proceso.
-   Recuerde que, en su calidad de parte dentro del proceso, es su responsabilidad hacer seguimiento permanente a su trámite.
+   La información publicada en esta aplicación es meramente informativa. 
+   No reemplaza ni suple la notificación del auto que cita a audiencia. 
+   La notificación a las partes se realiza por los medios previstos en el Código General del Proceso. 
+   Recuerde que, en su calidad de parte dentro del proceso, es su responsabilidad hacer seguimiento permanente a su trámite. 
+   En consecuencia, si su audiencia no aparece publicada en este espacio, ello no compromete la responsabilidad de la entidad.
 </p>
    """,
    unsafe_allow_html=True
